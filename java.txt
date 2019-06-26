@@ -1,0 +1,7 @@
+Download Carbonator.py from github https://github.com/integrissecurity/carbonator.git or you can download directly in Burp Extender.
+
+Then use below command to Run burp in headless mode and it start listen by default on 127.0.0.1 8080 you can manually chage the ip and port no.
+
+
+
+java -jar -Xmx2g -Djava.awt.headless=true  "C:\Program Files\BurpSuitePro\burpsuite_pro.jar"  http 127.0.0.1 80 /dvws --user-config-file="C:\Users\deepshar\Desktop\carbonator\Important Json File\user.json" --user-config-file="C:\Users\deepshar\Desktop\carbonator\Important Json File\project.json" --project-file="C:\Users\deepshar\Desktop\project.burp"
